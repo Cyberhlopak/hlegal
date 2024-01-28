@@ -1024,9 +1024,6 @@ footer {
   text-align: center;
   padding-top: 26px;
 }
-.flex3:nth-child(n + 7) {
-  display: none;
-}
 @media screen and (min-width: 580px) {
   .section-3 .caps {
     padding-top: 76px;
@@ -1050,9 +1047,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 120px);
   }
-  .flex3:nth-child(n + 7){
-    display: flex;
-  }
+
 }
 @media (min-width: 1024px) {
   .section-3 .sec3 {
@@ -1070,6 +1065,11 @@ footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+@media (max-width: 767px){
+  .flex3:nth-child(n + 7) {
+    display: none;
+  }
 }
 
 .section-3 .sec3-1 {
