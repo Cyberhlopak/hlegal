@@ -978,6 +978,7 @@ footer {
   flex-direction: column;
   gap: 30px;
 }
+
 .section-2 .slider__flex img {
   -o-object-fit: cover;
   object-fit: cover;
