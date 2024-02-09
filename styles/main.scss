@@ -10,7 +10,7 @@
   stroke: base.$active-regular;
 }
 
-.section-1 {
+.section-services {
   position: relative;
   background: base.$gradient-supersoft;
   margin: 0 auto;
@@ -174,7 +174,7 @@
     margin: auto;
     left: 0;
     right: 0;
-    @media screen and (min-width: 580px) {
+    @media screen and (min-width: 768px) {
       height: 49px;
     }
 
@@ -183,7 +183,7 @@
       color: base.$basic-white;
       max-width: 200px;
       margin: 0 auto;
-      @media screen and (min-width: 580px) {
+      @media screen and (min-width: 768px) {
         max-width: 100%;
       }
     }
@@ -213,7 +213,7 @@
   .flex-content {
     overflow: hidden;
     padding: 30px 0 10px;
-    @media(min-width: 580px) {
+    @media(min-width: 768px) {
       padding: 23px 0 10px;
     }
   }
@@ -235,7 +235,7 @@
 
   .gradient-red-text {
     padding: 0 0 30px;;
-    @media(min-width: 580px) {
+    @media(min-width: 768px) {
       padding: 0 0 60px;;
     }
   }
@@ -248,7 +248,7 @@
     flex-wrap: wrap;
     color: base.$basic-white;
     padding-bottom: 30px;
-    @media screen and (min-width: 580px) {
+    @media screen and (min-width: 768px) {
       padding-bottom: 0;
     }
   }
@@ -257,7 +257,7 @@
     max-width: 100%;
     margin-bottom: 30px;
     overflow: hidden;
-    @media screen and (min-width: 580px) and (max-width: 1440px) {
+    @media screen and (min-width: 768px) and (max-width: 1440px) {
       margin-bottom: 60px;
       max-width: 50%;
       padding-right: 20px;
@@ -292,10 +292,10 @@
   }
 }
 
-.section-2 {
+.section-slider {
   background: base.$basic-white;
   padding: 50px 0;
-  @media(min-width: 580px) {
+  @media(min-width: 768px) {
     padding: 79px 0 0;
   }
 
@@ -321,6 +321,10 @@
     &__item {
       border-radius: 12px;
       background-color: base.$gray-bg;
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
 
       &__right-block {
         padding: 0 30px;
@@ -342,7 +346,7 @@
     h4 {
       color: base.$gray-text;
       padding: 38px 0 6px;
-      @media screen and (min-width: 580px) {
+      @media screen and (min-width: 768px) {
         padding: 30px 0 6px;
       }
     }
@@ -367,7 +371,7 @@
         height: 500px;
         width: auto;
         border-radius: 12px 12px 0 0;
-        @media screen and (min-width: 580px) {
+        @media screen and (min-width: 768px) {
           height: auto;
         }
         @media screen and (min-width: 992px) {
@@ -394,10 +398,26 @@
     }
   }
 }
+.slider {
+  position: relative;
+  max-width: 48rem;
+}
 
-.section-3 {
+.slider-item {
+    display: flex;
+    overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slider-nav {
+  
+}
+
+.section-partners  {
   max-width: 1440px;
   margin: 0 auto;
+  padding-top: 76px;
 
 
   .caps {
@@ -405,10 +425,6 @@
     padding-bottom: 30px;
     text-align: center;
     padding-top: 26px;
-    @media screen and (min-width: 580px) {
-      padding-top: 76px;
-    }
-
   }
 
   .sec3 {
@@ -417,7 +433,7 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 120px);
     overflow: hidden;
-    @media(min-width: 580px) {
+    @media(min-width: 768px) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 120px);
     }
@@ -431,6 +447,7 @@
     }
   }
   .flex3 {
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -491,14 +508,14 @@
   }
 }
 
-.section-4 {
+.section-cards {
   background: base.$gray-bg;
   margin: 0 auto;
 
   .flex-content {
     padding-top: 30px;
     padding-bottom: 5px;
-    @media screen and (min-width: 580px) {
+    @media screen and (min-width: 768px) {
       padding-bottom: 11px;
     }
   }
@@ -524,7 +541,7 @@
       object-fit: cover;
     }
 
-    @media(min-width: 580px) {
+    @media(min-width: 768px) {
       display: -ms-grid;
       display: grid;
       -ms-grid-columns: 1fr 30px 1fr;
@@ -565,7 +582,7 @@
     display: -ms-grid;
     display: grid;
     gap: 16px;
-    @media(min-width: 580px) {
+    @media(min-width: 768px) {
       padding: 27px 30px 30px;
       gap: 15px;
     }
@@ -585,7 +602,7 @@
     .sec4-border {
       border-top: 4px solid base.$gray-separator;
       max-width: 450px;
-      @media(min-width: 580px) {
+      @media(min-width: 768px) {
         max-width: 992px;
       }
     }
