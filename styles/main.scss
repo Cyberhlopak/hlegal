@@ -18,13 +18,12 @@
 
   &:before {
     bottom: -10px;
-    width: 97%;
     background-color: #cacadb;
   }
 
   &:after {
     bottom: -20px;
-    width: 94%;
+
     background-color: #e7e7f2;
   }
 
@@ -32,7 +31,6 @@
     position: absolute;
     content: '';
     height: 10px;
-    left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -214,7 +212,7 @@
     overflow: hidden;
     padding: 30px 0 10px;
     @media(min-width: 768px) {
-      padding: 23px 0 10px;
+      margin-bottom: 10px;
     }
   }
 
@@ -236,7 +234,7 @@
   .gradient-red-text {
     padding: 0 0 30px;;
     @media(min-width: 768px) {
-      padding: 0 0 60px;;
+      margin-bottom: 60px;
     }
   }
 
@@ -255,12 +253,11 @@
 
   .box-1 {
     max-width: 100%;
-    margin-bottom: 30px;
+    gap: 30px;
     overflow: hidden;
     @media screen and (min-width: 768px) and (max-width: 1440px) {
-      margin-bottom: 60px;
       max-width: 50%;
-      padding-right: 20px;
+      gap: 60px 20px;
     }
     @media screen and (min-width: 1440px) {
       max-width: 400px;
@@ -269,7 +266,7 @@
 
 
   .box-1 h3 {
-    padding: 30px 0 15px;
+    margin: 30px 0 15px;
     color: base.$active-regular;
     overflow: hidden;
   }
@@ -335,7 +332,7 @@
     }
 
     .flex-content {
-      @media(min-width: 992px) {
+      @media(min-width: 1024px) {
         padding: 30px 0 0;
       }
     }
@@ -375,13 +372,13 @@
         @media screen and (min-width: 768px) {
           height: auto;
         }
-        @media screen and (min-width: 992px) {
+        @media screen and (min-width: 1024px) {
           height: auto;
           border-radius: 12px 0 0 12px;
         }
       }
 
-      @media(min-width: 992px) {
+      @media(min-width: 1024px) {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -419,14 +416,13 @@
 .section-partners  {
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 76px;
+  padding-top: 26px;
 
 
   .caps {
     color: base.$main-color;
-    padding-bottom: 30px;
     text-align: center;
-    padding-top: 26px;
+    margin-bottom: 30px;
   }
 
   .sec3 {
@@ -537,7 +533,7 @@
 
     img {
       max-width: 100%;
-      width: 992px;
+      width: 1024px;
       height: 200px;
       -o-object-fit: cover;
       object-fit: cover;
@@ -552,7 +548,7 @@
       -moz-column-gap: 30px;
       column-gap: 30px;
     }
-    @media(min-width: 992px) {
+    @media(min-width: 1024px) {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -605,7 +601,7 @@
       border-top: 4px solid base.$gray-separator;
       max-width: 450px;
       @media(min-width: 768px) {
-        max-width: 992px;
+        max-width: 1024px;
       }
     }
 
