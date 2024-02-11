@@ -301,6 +301,10 @@
 
   .slider {
     margin-bottom: 50px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 
     .slick-dots {
       bottom: -50px;
@@ -319,12 +323,9 @@
     }
 
     &__item {
+      display: none;
       border-radius: 12px;
       background-color: base.$gray-bg;
-      display: flex;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      scroll-behavior: smooth;
 
       &__right-block {
         padding: 0 30px;
@@ -397,21 +398,22 @@
       }
     }
   }
+.w3-badge {
+  height:13px;
+  width:13px;
+  cursor: pointer;
 }
-.slider {
+}
+.container {
   position: relative;
   max-width: 48rem;
 }
 
-.slider-item {
-    display: flex;
-    overflow-x: auto;
+.slider {
+  display: flex;
+  overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-}
-
-.slider-nav {
-  
 }
 
 .section-partners  {

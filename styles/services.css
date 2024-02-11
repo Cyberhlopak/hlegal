@@ -658,22 +658,22 @@ header .flex-header .slash {
   }
 }
 
-.section-services {
+.section-about {
   position: relative;
   background: linear-gradient(208deg, #323264 0%, #323264 59.9%, #643E72 100%);
   margin: 0 auto;
 }
-.section-services:before {
+.section-about:before {
   bottom: -10px;
   width: 97%;
   background-color: #cacadb;
 }
-.section-services:after {
+.section-about:after {
   bottom: -20px;
   width: 94%;
   background-color: #e7e7f2;
 }
-.section-services::before, .section-services::after {
+.section-about::before, .section-about::after {
   position: absolute;
   content: "";
   height: 10px;
@@ -683,15 +683,15 @@ header .flex-header .slash {
   transform: translateX(-50%);
   border-radius: 0 0 12px 12px;
 }
-.section-services .gradient-red-text {
+.section-about .gradient-red-text {
   padding: 132px 0 30px;
 }
 @media (min-width: 768px) {
-  .section-services .gradient-red-text {
+  .section-about .gradient-red-text {
     padding: 176px 0 60px;
   }
 }
-.section-services .flex-box {
+.section-about .flex-box {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -701,77 +701,77 @@ header .flex-header .slash {
   padding-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
-  .section-services .flex-box {
+  .section-about .flex-box {
     padding-bottom: 0;
   }
 }
-.section-services .box-1 {
+.section-about .box-1 {
   max-width: 100%;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-  .section-services .box-1 {
+  .section-about .box-1 {
     margin-bottom: 60px;
     max-width: 50%;
     padding-right: 20px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .section-services .box-1 {
+  .section-about .box-1 {
     max-width: 400px;
   }
 }
-.section-services .box-1 button {
+.section-about .box-1 button {
   border-radius: 24px;
   padding: 14px;
   height: 92px;
 }
-.section-services .box-1 h3 {
+.section-about .box-1 h3 {
   padding: 30px 0 15px;
   color: #24A3FF;
 }
-.section-services .box-1 h3:hover {
+.section-about .box-1 h3:hover {
   color: #F0145A;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
-.section-slider {
+.section-partners {
   max-width: 1440px;
   margin: 0 auto;
 }
-.section-slider .caps {
+.section-partners .caps {
   color: rgba(50, 50, 100, 0.95);
   padding-bottom: 30px;
   text-align: center;
   padding-top: 80px;
 }
-.section-slider .sec2 {
+.section-partners .sec2 {
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(12, 120px);
 }
 @media (min-width: 768px) {
-  .section-slider .sec2 {
+  .section-partners .sec2 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 120px);
   }
 }
 @media (min-width: 769px) {
-  .section-slider .sec2 {
+  .section-partners .sec2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 120px);
   }
 }
 @media (min-width: 1024px) {
-  .section-slider .sec2 {
+  .section-partners .sec2 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 120px);
   }
 }
-.section-slider .flex2 {
+.section-partners .flex2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -782,40 +782,40 @@ header .flex-header .slash {
   -ms-flex-align: center;
   align-items: center;
 }
-.section-slider .sec2-1 {
+.section-partners .sec2-1 {
   background: #1C4280;
 }
-.section-slider .sec2-2 {
+.section-partners .sec2-2 {
   background: #143646;
 }
-.section-slider .sec2-3 {
+.section-partners .sec2-3 {
   background: linear-gradient(0deg, #F48B30 0%, #F48B30 100%), #F48B30;
 }
-.section-slider .sec2-4 {
+.section-partners .sec2-4 {
   background: #9E4DC3;
 }
-.section-slider .sec2-5 {
+.section-partners .sec2-5 {
   background: #FD9339;
 }
-.section-slider .sec2-6 {
+.section-partners .sec2-6 {
   background: #E2E2E4;
 }
-.section-slider .sec2-7 {
+.section-partners .sec2-7 {
   background: #C71C36;
 }
-.section-slider .sec2-8 {
+.section-partners .sec2-8 {
   background: #DCF3F9;
 }
-.section-slider .sec2-9 {
+.section-partners .sec2-9 {
   background: #EAEAEA;
 }
-.section-slider .sec2-10 {
+.section-partners .sec2-10 {
   background: #282240;
 }
-.section-slider .sec2-11 {
+.section-partners .sec2-11 {
   background: #1D4568;
 }
-.section-slider .sec2-12 {
+.section-partners .sec2-12 {
   background: #000;
 }
 

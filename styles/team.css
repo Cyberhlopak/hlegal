@@ -715,33 +715,33 @@ header .hamburger-lines .line {
   background: #323264 !important;
 }
 
-.section-1 {
+.section-about {
   max-width: 1440px;
   margin: 0 auto;
   padding-top: 115px;
   padding-bottom: 59px;
 }
 @media screen and (min-width: 1025px) {
-  .section-1 {
+  .section-about {
     padding-bottom: 61px;
     padding-top: 158px;
   }
 }
-.section-1 h1 {
+.section-about h1 {
   margin: 0 auto;
   max-width: 1080px;
   padding-top: 19px;
   padding-bottom: 22px;
 }
 @media screen and (min-width: 1025px) {
-  .section-1 h1 {
+  .section-about h1 {
     padding-bottom: 56px;
   }
 }
-.section-1 h4 {
+.section-about h4 {
   color: rgba(50, 50, 100, 0.95);
 }
-.section-1 .flex-sec1 {
+.section-about .flex-sec1 {
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -751,13 +751,13 @@ header .hamburger-lines .line {
   padding-top: 10px;
 }
 @media screen and (min-width: 580px) {
-  .section-1 .flex-sec1 {
+  .section-about .flex-sec1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
 }
 @media screen and (min-width: 1024px) {
-  .section-1 .flex-sec1 {
+  .section-about .flex-sec1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -770,10 +770,10 @@ header .hamburger-lines .line {
     padding-top: 0;
   }
 }
-.section-1 .flex-sec1 .sec1 {
+.section-about .flex-sec1 .sec1 {
   max-width: 400px;
 }
-.section-1 .flex-sec1 .sec1 img {
+.section-about .flex-sec1 .sec1 img {
   width: 100%;
   height: 309px;
   padding-bottom: 9px;
@@ -781,11 +781,11 @@ header .hamburger-lines .line {
   border-radius: 12px;
 }
 @media screen and (min-width: 580px) {
-  .section-1 .flex-sec1 .sec1 img {
+  .section-about .flex-sec1 .sec1 img {
     height: auto;
   }
 }
-.section-1 .flex-sec1 .sec1 .flex-team {
+.section-about .flex-sec1 .sec1 .flex-team {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -799,13 +799,13 @@ header .hamburger-lines .line {
   justify-content: space-between;
   color: #24A3FF;
 }
-.section-1 .flex-sec1 .sec1 .flex-team:hover {
+.section-about .flex-sec1 .sec1 .flex-team:hover {
   color: #F0145A;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-.section-1 .flex-sec1 .sec1 .flex-team:hover h4:hover {
+.section-about .flex-sec1 .sec1 .flex-team:hover h4:hover {
   color: #F0145A;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
