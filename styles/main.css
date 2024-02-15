@@ -1066,12 +1066,11 @@ footer {
   -ms-flex-align: center;
   align-items: center;
 }
-@media (max-width: 767px){
-  .flex3:nth-child(n + 7) {
+@media(max-width: 768px) {
+  .sec3:nth-child(n + 7) {
     display: none;
   }
 }
-
 .section-partners .sec3-1 {
   background: #1C4280;
 }

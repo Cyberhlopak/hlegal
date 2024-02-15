@@ -72,7 +72,7 @@
       color: base.$accent;
     }
 
-    @media(min-width: 1025px) {
+    @media(min-width: 1024px) {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -100,7 +100,7 @@
     margin: 30px;
     gap: 30px;
     overflow-x: auto;
-    @media(min-width: 1025px) {
+    @media(min-width: 1024px) {
       display: block;
       width: 41%;
       padding-left: 20px;
@@ -112,7 +112,7 @@
   }
 
   .ui-tabs-tab {
-    @media(min-width: 1025px) {
+    @media(min-width: 1024px) {
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s;
@@ -140,7 +140,7 @@
   .ui-tabs-panel {
     padding-right: 20px;
     padding-left: 30px;
-    @media(min-width: 1025px) {
+    @media(min-width: 1024px) {
       padding-top: 44px;
       max-width: 630px;
       padding-right: 20px;
@@ -149,7 +149,7 @@
     h2 {
       color: base.$basic-white;
       padding-bottom: 30px;
-      @media(min-width: 1025px) {
+      @media(min-width: 1024px) {
         padding-top: 20px;
       }
     }
@@ -232,7 +232,8 @@
 
 
   .gradient-red-text {
-    padding: 0 0 30px;;
+    padding: 0 0 30px;
+    line-height: 46.32px;
     @media(min-width: 768px) {
       margin-bottom: 60px;
     }
@@ -331,12 +332,6 @@
       }
     }
 
-    .flex-content {
-      @media(min-width: 1024px) {
-        padding: 30px 0 0;
-      }
-    }
-
     h3 {
       padding-bottom: 4px;
     }
@@ -349,9 +344,6 @@
       }
     }
 
-    p {
-      padding: 0 0 30px;
-    }
 
     &__flex {
       display: -webkit-box;
@@ -431,7 +423,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 120px);
     overflow: hidden;
-    @media(min-width: 768px) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 120px);
     }
@@ -455,8 +446,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
+    
   .sec3-1 {
     background: #1C4280;
   }
@@ -509,9 +499,9 @@
 .section-cards {
   background: base.$gray-bg;
   margin: 0 auto;
+  padding-top: 30px;
 
   .flex-content {
-    padding-top: 30px;
     padding-bottom: 5px;
     @media screen and (min-width: 768px) {
       padding-bottom: 11px;
@@ -519,7 +509,7 @@
   }
 
   h1 {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   .sec-4 {
@@ -562,7 +552,6 @@
 
   .flex-cards {
     width: 100%;
-    margin-bottom: 30px;
     border-radius: 8px;
     background-color: base.$basic-white;
     overflow: hidden;
